@@ -4,25 +4,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  test-gitee:
+  validate-token:
     runs-on: ubuntu-latest
     steps:
-      # 测试 Gitee 认证
-      - name: Test Gitee Token
+      - name: Check Gitee Token Validity
         env:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
-          echo "测试 Gitee Token 是否有效..."
+          echo "正在验证 Gitee Token..."
           
-          # 使用 curl 访问 Gitee API
-          curl -s -o /dev/null -w "%{http_code}" \
-            -H "Authorization: token $GITEE_TOKEN" \
-            "https://gitee.com/api/v5/user"
+          # 使用 curl 发送请求并捕获 HTTP 状态码
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $GITEE_TOKEN" \
+            "https://gitee.com/api/v5/user")
           
-          # 检查 HTTP 状态码是否为 200
-          if [ $? -eq 0 ] && [ $? -eq 200 ]; then
+          # 检查 HTTP 状态码是否为 200（成功）
+          if [ "$HTTP_CODE" == "200" ]; then
             echo "✅ Gitee Token 有效！"
           else
             echo "❌ Gitee Token 无效或权限不足！"
+            echo "错误详情：HTTP 状态码 $HTTP_CODE"
             exit 1
           fi
