@@ -16,10 +16,11 @@ jobs:
           ref: myConfig
           path: source_repo # 将源代码检出到 source_repo 目录
 
-      # 2. 检出目标仓库 (Gitee)
+      # 2. 检出目标仓库 (Gitee) - 修正了这里的 repository 参数
       - name: Checkout Gitee Target
         uses: actions/checkout@v4
         with:
+          # 关键修正：这里必须是 Gitee 的仓库地址
           repository: gordon85/Gordon85_IPTV
           ref: master
           path: target_repo # 将目标代码检出到 target_repo 目录
