@@ -1,82 +1,28 @@
 name: 'Update schedule'
 
 on:
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
-  sync-output:
+  test-gitee:
     runs-on: ubuntu-latest
-    
     steps:
-      # 1. 检出源仓库 (GitHub)
-      - name: Checkout GitHub Source
-        uses: actions/checkout@v4
-        with:
-          repository: GordonJD85/iptv-api
-          ref: myConfig
-          path: source_repo
-
-      # 2. 检出目标仓库 (Gitee) - 关键修正：使用完整的 Gitee 仓库 URL
-      - name: Checkout Gitee Target
-        uses: actions/checkout@v4
-        with:
-          # 关键修正：必须使用完整的 Gitee 仓库 URL
-          repository: https://gitee.com/gordon85/Gordon85_IPTV
-          ref: master
-          path: target_repo
-          token: ${{ secrets.GITEE_TOKEN }}  # 使用 Gitee Token 认证
-
-      # 3. 同步文件并推送
-      - name: Sync and Push to Gitee
+      # 测试 Gitee 认证
+      - name: Test Gitee Token
         env:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
-          echo "1. 准备同步..."
+          echo "测试 Gitee Token 是否有效..."
           
-          # 进入目标仓库目录
-          cd target_repo
+          # 使用 curl 访问 Gitee API
+          curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: token $GITEE_TOKEN" \
+            "https://gitee.com/api/v5/user"
           
-          # 配置 Git 用户信息
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          
-          # 2. 清空目标仓库的 output 目录
-          echo "2. 清空本地 output 目录..."
-          rm -rf output/*
-          
-          # 3. 复制源仓库的 output 内容
-          echo "3. 复制源文件..."
-          # 检查源目录是否存在
-          if [ ! -d "../source_repo/output" ]; then
-            echo "警告: 源目录 ../source_repo/output 不存在，跳过复制。"
-            # 创建一个空的 .gitkeep 文件
-            touch output/.gitkeep
+          # 检查 HTTP 状态码是否为 200
+          if [ $? -eq 0 ] && [ $? -eq 200 ]; then
+            echo "✅ Gitee Token 有效！"
           else
-            cp -r ../source_repo/output/* output/
+            echo "❌ Gitee Token 无效或权限不足！"
+            exit 1
           fi
-          
-          # 4. 检查是否有变化并提交
-          echo "4. 检查变更..."
-          git add output/
-          
-          # 如果没有变化，直接退出
-          if git diff --cached --quiet; then
-            echo "无变化，无需推送。"
-            exit 0
-          fi
-          
-          git commit -m "Sync output from GitHub iptv-api:myConfig $(date '+%Y-%m-%d %H:%M:%S')"
-          
-          # 5. 推送修复：显式指定 HTTPS URL 并使用 Token
-          echo "5. 推送到 Gitee..."
-          # 方法：直接在 URL 中嵌入 Token (最简单可靠)
-          git push https://$GITEE_TOKEN@gitee.com/gordon85/Gordon85_IPTV.git master
-          
-          echo "同步完成！"
-          
-      # 4. 清理临时目录
-      - name: Clean up
-        if: always()
-        run: |
-          echo "清理临时目录..."
-          rm -rf source_repo target_repo
