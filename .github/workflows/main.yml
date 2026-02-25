@@ -1,28 +1,49 @@
 name: 'Update schedule'
 
 on:
+  push:
+    branches:
+      - myConfig
+    paths:
+      - 'output/**'
   workflow_dispatch:
 
 jobs:
-  validate-token:
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Check Gitee Token Validity
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v4
+        with:
+          ref: myConfig
+
+      - name: Sync output folder to Gitee via HTTPS
         env:
+          # 读取你在 GitHub 设置的 Secrets
+          GITEE_USER: ${{ secrets.GITEE_USER }}
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
-          echo "正在验证 Gitee Token..."
+          # 1. 配置 Git 提交身份 (直接使用你配置的用户名)
+          git config --global user.name "${GITEE_USER}"
+          git config --global user.email "${GITEE_USER}@users.noreply.github.com"
           
-          # 使用 curl 发送请求并捕获 HTTP 状态码
-          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
-            -H "Authorization: Bearer $GITEE_TOKEN" \
-            "https://gitee.com/api/v5/user")
+          # 2. 克隆 Gitee 目标仓库到临时目录 (使用 HTTPS 结合 Token 认证)
+          git clone https://${GITEE_USER}:${GITEE_TOKEN}@gitee.com/gordon85/Gordon85_IPTV.git temp_gitee_repo
+          cd temp_gitee_repo
           
-          # 检查 HTTP 状态码是否为 200（成功）
-          if [ "$HTTP_CODE" == "200" ]; then
-            echo "✅ Gitee Token 有效！"
+          # 3. 确保在 master 分支
+          git checkout master
+          
+          # 4. 同步文件 (使用 rsync 保持 output 目录完全一致)
+          mkdir -p output
+          rsync -av --delete $GITHUB_WORKSPACE/output/ ./output/
+          
+          # 5. 检查变动并提交推送
+          if [ -n "$(git status --porcelain)" ]; then
+            git add output/
+            git commit -m "chore: auto-sync output folder from GitHub Actions"
+            git push origin master
+            echo "✅ 同步成功！"
           else
-            echo "❌ Gitee Token 无效或权限不足！"
-            echo "错误详情：HTTP 状态码 $HTTP_CODE"
-            exit 1
+            echo "⚠️ 没有检测到文件变动，跳过推送。"
           fi
