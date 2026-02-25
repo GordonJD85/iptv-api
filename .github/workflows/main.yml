@@ -1,5 +1,4 @@
 name: 'Update schedule'
-name: Sync output to Gitee
 
 on:
   workflow_dispatch:  # 允许手动触发
