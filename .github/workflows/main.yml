@@ -16,7 +16,7 @@ jobs:
           ref: myConfig
           path: source_repo # 将源代码检出到 source_repo 目录
 
-      # 2. 检出目标仓库 (Gitee) - 修正了这里的 repository 参数
+      # 2. 检出目标仓库 (Gitee) - 关键修正：使用 Gitee Token
       - name: Checkout Gitee Target
         uses: actions/checkout@v4
         with:
@@ -24,6 +24,7 @@ jobs:
           repository: gordon85/Gordon85_IPTV
           ref: master
           path: target_repo # 将目标代码检出到 target_repo 目录
+          token: ${{ secrets.GITEE_TOKEN }} # 关键修正：使用 Gitee Token 认证
 
       # 3. 同步文件并推送
       - name: Sync and Push to Gitee
