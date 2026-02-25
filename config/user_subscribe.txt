@@ -17,8 +17,6 @@
 # https://raw.githubusercontent.com/q1017673817/iptvz/cc07ee8377879a0682413d14cdd3571b4e82f83f/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt
 https://raw.githubusercontent.com/ncnc8388/iptvzhubo/97b48276556c5ccf8769b947751a1831385e1902/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt
 
-https://github.com/ngdikman/hksar/raw/759b9ebec20313f92c6fdeee97e7889f29c4aae8/dianxin.txt
-
-
+https://github.com/ngdikman/hksar/raw/refs/heads/main/dianxin.txt
 #IPTV-GO 项目
 # https://raw.githubusercontent.com/yewengood/yahu/refs/heads/main/speedtest/gddx_fofa.txt
