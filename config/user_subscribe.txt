@@ -11,13 +11,13 @@
 # https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/%E4%BB%A3%E7%90%86%E6%BA%90/%E7%A6%8F%E5%BB%BA%E7%A7%BB%E5%8A%A8-dl.txt
 # https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/%E4%BB%A3%E7%90%86%E6%BA%90/%E4%B8%8A%E6%B5%B7%E7%A7%BB%E5%8A%A8-dl.txt
 
-# https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
+https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
 
-https://raw.githubusercontent.com/ncnc8388/iptvzhubo/refs/heads/main/zubo_all.txt
+# https://raw.githubusercontent.com/ncnc8388/iptvzhubo/refs/heads/main/zubo_all.txt
 
 # https://raw.githubusercontent.com/ncnc8388/iptvzhubo/97b48276556c5ccf8769b947751a1831385e1902/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt
 
-https://raw.githubusercontent.com/mazda1152/iptvz/refs/heads/main/zubo_all.txt
+# https://raw.githubusercontent.com/mazda1152/iptvz/refs/heads/main/zubo_all.txt
 # 持续关注
 https://github.com/govnn/govnn.github.io/raw/refs/heads/main/e/888
 
