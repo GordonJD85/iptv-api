@@ -47,8 +47,8 @@ CCTV-3,http://183.239.108.37:1698/hls/19/index.m3u8
 CCTV-4,http://183.239.108.37:1698/hls/20/index.m3u8
 CCTV-5,http://183.239.108.37:1698/hls/21/index.m3u8
 CCTV-5,http://183.239.108.37:1698/hls/22/index.m3u8
-CCTV-5+,http://183.239.108.37:1698/hls/21/index.m3u8
 CCTV-5+,http://183.239.108.37:1698/hls/22/index.m3u8
+CCTV-5+,http://183.239.108.37:1698/hls/21/index.m3u8
 CCTV-6,http://183.239.108.37:1698/hls/23/index.m3u8
 CCTV-7,http://183.239.108.37:1698/hls/24/index.m3u8
 CCTV-8,http://183.239.108.37:1698/hls/25/index.m3u8
@@ -85,4 +85,4 @@ CHC动作电影,http://183.239.108.37:1698/hls/99/index.m3u8
 金鹰卡通,http://183.239.108.37:1698/hls/60/index.m3u8
 
 🕘️更新时间,#genre#
-2026-03-03 21:10:18,http://183.239.108.37:1698/hls/8/index.m3u8$1698
+2026-03-06 09:33:31,http://183.239.108.37:1698/hls/8/index.m3u8$1698
