@@ -1,23 +1,31 @@
 ☘️广东频道,#genre#
 潮州综合,http://183.239.108.37:1698/hls/8/index.m3u8
 潮州综合,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20260101$自用源
+潮州综合,http://211.97.63.3:3443/hls/503/index.m3u8$自用源
 潮州民生,http://183.239.108.37:1698/hls/9/index.m3u8
 潮州民生,http://livezhpd.czbtv.com:38880/live/ggpd.m3u8?secret=czbtv20260101$自用源
 汕头综合,http://183.239.108.37:1698/hls/3/index.m3u8
+汕头综合,http://211.97.63.3:3443/hls/40/index.m3u8$自用源
 汕头经济,http://183.239.108.37:1698/hls/4/index.m3u8
+汕头经济,http://211.97.63.3:3443/hls/41/index.m3u8$自用源
+汕头经济,http://211.97.63.3:3443/hls/501/index.m3u8$自用源
 揭阳生活,http://183.239.108.37:1698/hls/7/index.m3u8
+揭阳生活,http://211.97.63.3:3443/hls/37/index.m3u8$自用源
 揭阳综合,http://183.239.108.37:1698/hls/6/index.m3u8
+揭阳综合,http://211.97.63.3:3443/hls/36/index.m3u8$自用源
 广东少儿,http://183.239.108.37:1698/hls/17/index.m3u8
 广东珠江,http://183.239.108.37:1698/hls/13/index.m3u8
 广东卫视,http://183.239.108.37:1698/hls/2/index.m3u8
 广东新闻,http://183.239.108.37:1698/hls/11/index.m3u8
 广东民生,http://183.239.108.37:1698/hls/10/index.m3u8
 广东体育,http://183.239.108.37:1698/hls/12/index.m3u8
+广东体育,http://211.97.63.3:3443/hls/546/index.m3u8$自用源
 大湾区卫视,http://183.239.108.37:1698/hls/15/index.m3u8
 
 🌊港·澳·台,#genre#
 翡翠台,http://183.239.108.37:1698/hls/92/index.m3u8$本地源
 翡翠台,http://111.221.137.152:44330/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
+翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8$自用源
 翡翠台,http://mytv.cdn.loc.cc/o12.php?id=fct$自用源
 翡翠台,https://cdn6.163189.xyz/163189/fct4k$自用源
 翡翠台,http://hls.168.us.kg/u/81/master.m3u8$自用源
@@ -69,6 +77,7 @@ CETV-1,http://183.239.108.37:1698/hls/59/index.m3u8
 湖南卫视,http://183.239.108.37:1698/hls/35/index.m3u8
 浙江卫视,http://183.239.108.37:1698/hls/36/index.m3u8
 江苏卫视,http://183.239.108.37:1698/hls/37/index.m3u8
+江苏卫视,http://211.97.63.3:3443:801/hls/559/index.m3u8$自用源
 深圳卫视,http://183.239.108.37:1698/hls/39/index.m3u8
 湖北卫视,http://183.239.108.37:1698/hls/41/index.m3u8
 广西卫视,http://183.239.108.37:1698/hls/54/index.m3u8
@@ -80,7 +89,9 @@ CETV-1,http://183.239.108.37:1698/hls/59/index.m3u8
 
 🎬电影频道,#genre#
 CHC家庭影院,http://183.239.108.37:1698/hls/80/index.m3u8
+CHC家庭影院,http://211.97.63.3:3443:801/hls/523/index.m3u8$自用源
 CHC动作电影,http://183.239.108.37:1698/hls/99/index.m3u8
+CHC动作电影,http://211.97.63.3:3443:801/hls/523/index.m3u8$自用源
 嘉佳卡通,http://183.239.108.37:1698/hls/88/index.m3u8
 金鹰卡通,http://183.239.108.37:1698/hls/60/index.m3u8
 美亚电影,https://php.jdshipin.com:2096/TVOD/iptv.php?id=meiya$本地源
@@ -98,4 +109,4 @@ CHC动作电影,http://183.239.108.37:1698/hls/99/index.m3u8
 黄渤,http://live.iill.top/huya.php?id=11601968$本地源
 
 🕘️更新时间,#genre#
-2026-03-09 02:38:16,http://183.239.108.37:1698/hls/8/index.m3u8
+2026-03-10 00:59:02,http://183.239.108.37:1698/hls/8/index.m3u8
