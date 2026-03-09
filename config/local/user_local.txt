@@ -5,6 +5,24 @@
 潮州综合,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20260101$!自用源
 潮州民生,http://livezhpd.czbtv.com:38880/live/ggpd.m3u8?secret=czbtv20260101$!自用源
 
+汕头综合新闻,http://211.97.63.3:3443/hls/500/index.m3u8$!自用源
+汕头经济生活,http://211.97.63.3:3443/hls/501/index.m3u8$!自用源
+潮州综合,http://211.97.63.3:3443/hls/503/index.m3u8$!自用源
+CHC动作电影,http://211.97.63.3:3443:801/hls/523/index.m3u8$!自用源
+CHC家庭影院,http://211.97.63.3:3443:801/hls/523/index.m3u8$!自用源
+凤凰中文高清,http://211.97.63.3:3443/hls/542/index.m3u8$!自用源
+翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8$!自用源
+广东体育,http://211.97.63.3:3443/hls/546/index.m3u8$!自用源
+江苏卫视,http://211.97.63.3:3443:801/hls/559/index.m3u8$!自用源
+凤凰中文高清,http://211.97.63.3:3443/hls/989/index.m3u8$!自用源
+
+揭阳综合,http://211.97.63.3:3443/hls/36/index.m3u8$!自用源
+揭阳生活,http://211.97.63.3:3443/hls/37/index.m3u8$!自用源
+汕头综合,http://211.97.63.3:3443/hls/40/index.m3u8$!自用源
+汕头经济,http://211.97.63.3:3443/hls/41/index.m3u8$!自用源
+翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8$!自用源
+
+
 翡翠台,http://mytv.cdn.loc.cc/o12.php?id=fct$!自用源
 明珠台,http://mytv.cdn.loc.cc/o12.php?id=mzt$!自用源
 
