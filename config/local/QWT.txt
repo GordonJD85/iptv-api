@@ -213,10 +213,6 @@ CHC动作电影,http://go.bkpcp.top/mg/dzdy$!自用源
 CHC影迷电影,http://go.bkpcp.top/mg/ymdy$!自用源
 CHC家庭影院,http://go.bkpcp.top/mg/jtyy$!自用源
 
-CHC家庭影院,http://106.53.99.30/tv/hot.php?id=jtyy
-CHC动作电影,http://106.53.99.30/tv/hot.php?id=dzdy
-CHC影迷电影,http://106.53.99.30/tv/hot.php?id=ymdy
-
 
 刘德华,http://shorturl.jxpan.vip:880/r/baoshi_aio/huya/11342424$!自用源
 李连杰,http://shorturl.jxpan.vip:880/r/baoshi_aio/huya/11342390$!自用源
