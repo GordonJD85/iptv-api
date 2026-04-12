@@ -3,7 +3,7 @@
 潮州综合,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20260101
 潮州综合,http://211.97.63.3:3443/hls/503/index.m3u8
 潮州民生,http://183.239.108.37:1698/hls/9/index.m3u8
-潮州民生,http://livezhpd.czbtv.com:38880/live/ggpd.m3u8?secret=czbtv20260101
+潮州民生,http://livezhpd.czbtv.com:38880/live/ctvggpd.m3u8?secret=czbtv20260101
 汕头综合,http://183.239.108.37:1698/hls/3/index.m3u8
 汕头综合,http://211.97.63.3:3443/hls/40/index.m3u8
 汕头经济,http://211.97.63.3:3443/hls/501/index.m3u8
@@ -59,12 +59,12 @@ TVB星河,http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 TVB星河,http://orz.jkun.cf/smt.php?id=Xinhe
 TVB星河,http://orz.jkun.cf/smt.php?id=tvbxinhe_twn
 TVB星河,https://cdn6.101.qzz.io/163189/tvbxh
+ViuTV,http://hls.168.us.kg/u/99/master.m3u8
 ViuTV,http://r.jdshipin.com/vSJvl
 ViuTV,http://r.jdshipin.com/TcKr2
 ViuTV,http://bziyunshao.synology.me:8889/bysid/99
 ViuTV,http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
 ViuTV,http://php.jdshipin.com:8880/smt.php?id=viu1_twn
-ViuTV,http://hls.168.us.kg/u/99/master.m3u8
 ViuTV,https://php.jdshipin.com:2096/TVOD/iptv.php?id=viutv
 ViuTV,https://php.jdshipin.com:2096/TVOD/iptv.php?id=viutv2
 ViuTV,http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutv
@@ -206,15 +206,15 @@ CETV-4,http://139.155.89.87:1000/923287339
 天津卫视,http://183.239.108.37:1698/hls/42/index.m3u8
 
 🎬电影频道,#genre#
-CHC家庭影院,http://183.239.108.37:1698/hls/80/index.m3u8
 CHC家庭影院,http://139.155.89.87:1000/644368373
 CHC家庭影院,http://go.bkpcp.top/mg/jtyy
 CHC家庭影院,http://jntv.cc.cd/live/rx6/1347/c61786e5a91ca66f8fee0a9686234494/index.m3u8
 CHC家庭影院,http://z88.ubtvfans.com/live/rx6/1347/c61786e5a91ca66f8fee0a9686234494/index.m3u8
+CHC家庭影院,http://183.239.108.37:1698/hls/80/index.m3u8
 CHC家庭影院,http://211.97.63.3:3443:801/hls/523/index.m3u8
+CHC动作电影,http://183.239.108.37:1698/hls/99/index.m3u8
 CHC动作电影,http://139.155.89.87:1000/644368714
 CHC动作电影,http://go.bkpcp.top/mg/dzdy
-CHC动作电影,http://183.239.108.37:1698/hls/99/index.m3u8
 CHC动作电影,http://211.97.63.3:3443:801/hls/523/index.m3u8
 CHC影迷电影,http://139.155.89.87:1000/952383261
 CHC影迷电影,http://go.bkpcp.top/mg/ymdy
@@ -228,13 +228,13 @@ CHC影迷电影,http://go.bkpcp.top/mg/ymdy
 美亚电影,https://jntv.cc.cd/live/rx2/375/32545f856489cb883e0e85b8d6e21b50/index.m3u8
 美亚电影,https://z88.ubtvfans.com/live/rx2/375/32545f856489cb883e0e85b8d6e21b50/index.m3u8
 周星驰,http://shorturl.jxpan.vip:880/r/baoshi_aio/huya/11342412
-周星驰,http://shorturl.jxpan.vip:880/r/baoshi_aio/huya/11336587
 周星驰,http://222.186.39.38:8000/028749/index.m3u8
 周星驰,https://live.ottiptv.cc/huya/11342412
 周星驰,https://yylunbo.ottiptv.cc/yy/38670875
 周星驰,http://live.iill.top/huya.php?id=11342412
 周星驰,http://cfss.cc/cdn/hy/11336587.m3u8
 周星驰,https://isus.cc/php/huya.php?id=11342412
+周星驰,http://shorturl.jxpan.vip:880/r/baoshi_aio/huya/11336587
 洪金宝,http://live.nctv.top/huya.php?id=11279251
 洪金宝,http://cfss.cc/cdn/hy/11279251.m3u8
 洪金宝,http://shorturl.jxpan.vip:880/r/baoshi_aio/huya/11279251
@@ -265,4 +265,4 @@ CHC影迷电影,http://go.bkpcp.top/mg/ymdy
 吴京,https://isus.cc/php/huya.php?id=11602041
 
 🕘️更新时间,#genre#
-2026-04-06 19:11:23,http://183.239.108.37:1698/hls/8/index.m3u8
+2026-04-12 21:16:56,http://183.239.108.37:1698/hls/8/index.m3u8
