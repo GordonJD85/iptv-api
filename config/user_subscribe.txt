@@ -14,6 +14,7 @@
 https://github.com/q1017673817/iptvz/blob/main/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt
 
 http://119.91.7.169:5501/jmbvipxf/jmbvipxf.txt
+https://taoiptv.com/lives/44023.txt?token=ca117540ef250aaf
 
 # https://raw.githubusercontent.com/ncnc8388/iptvzhubo/refs/heads/main/zubo_all.txt
 https://raw.githubusercontent.com/ncnc8388/iptvzhubo/97b48276556c5ccf8769b947751a1831385e1902/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt
@@ -21,6 +22,7 @@ https://raw.githubusercontent.com/ncnc8388/iptvzhubo/97b48276556c5ccf8769b947751
 # https://raw.githubusercontent.com/mazda1152/iptvz/refs/heads/main/zubo_all.txt
 # 持续关注
 https://github.com/govnn/govnn.github.io/raw/refs/heads/main/e/888
+https://raw.githubusercontent.com/jn950/live/93f9e5bb95c38909f9d30730b1861c14f4b838f1/tv/pllive.txt
 
 https://github.com/ngdikman/hksar/raw/refs/heads/main/dianxin.txt
 #IPTV-GO 项目
