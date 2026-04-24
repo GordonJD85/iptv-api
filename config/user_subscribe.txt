@@ -13,7 +13,6 @@
 # https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
 https://github.com/q1017673817/iptvz/blob/main/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt
 
-http://119.91.7.169:5501/jmbvipxf/jmbvipxf.txt
 https://taoiptv.com/lives/44023.txt?token=ca117540ef250aaf
 
 # https://raw.githubusercontent.com/ncnc8388/iptvzhubo/refs/heads/main/zubo_all.txt
