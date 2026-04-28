@@ -14,3 +14,4 @@
 # This area is the keyword whitelist. If the interface address obtained by a certain channel contains the specified keyword, the interface will be added to the whitelist of the channel, with multiple records entered on new lines.
 183.239.108.37:1698
 111.221.137.152:44330
+cziptv.gordon.dpdns.org
