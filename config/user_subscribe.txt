@@ -13,7 +13,7 @@
 # https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt
 https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt
 
-https://taoiptv.com/lives/44023.txt?token=a0075e25aec3d6ab
+https://taoiptv.com/lives/44023.txt?token=a3763a3985514903
 
 http://m3u.gordon.dpdns.org/abc123
 
