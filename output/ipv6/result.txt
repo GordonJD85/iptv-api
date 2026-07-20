@@ -101,23 +101,24 @@ ViuTV,http://bziyunshao.synology.me:8889/bysid/99
 民视,http://orz.jkun.cf/smt.php?id=ftvhd_taiwan
 
 📺央视频道,#genre#
-CCTV-1,http://cziptv.gordon.dpdns.org/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-1,http://221.229.212.86:14923
 CCTV-1,http://221.229.212.86:14977
 CCTV-1,http://139.155.89.87:1000/608807420
 CCTV-1,http://183.239.108.37:1698/hls/1/index.m3u8
+CCTV-1,http://cziptv.gordon.dpdns.org/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-2,http://221.229.212.86:14993
 CCTV-2,http://139.155.89.87:1000/631780532
 CCTV-2,http://183.239.108.37:1698/hls/18/index.m3u8
 CCTV-2,http://cziptv.gordon.dpdns.org/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&down=1
-CCTV-3,http://cziptv.gordon.dpdns.org/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-3,http://221.229.212.86:14985
 CCTV-3,http://139.155.89.87:1000/624878271
 CCTV-3,http://183.239.108.37:1698/hls/19/index.m3u8
+CCTV-3,http://cziptv.gordon.dpdns.org/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-4,http://221.229.212.86:14994
 CCTV-4,http://139.155.89.87:1000/631780421
 CCTV-4,http://183.239.108.37:1698/hls/20/index.m3u8
 CCTV-4,http://cziptv.gordon.dpdns.org/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&down=1
+CCTV-5,http://cziptv.gordon.dpdns.org/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-5,http://221.229.212.86:14925
 CCTV-5,http://221.229.212.86:14981
 CCTV-5,http://139.155.89.87:1000/641886773
@@ -126,7 +127,6 @@ CCTV-5,http://221.229.212.86:14924
 CCTV-5,http://221.229.212.86:14982
 CCTV-5,http://139.155.89.87:1000/641886683
 CCTV-5,http://183.239.108.37:1698/hls/21/index.m3u8
-CCTV-5,http://cziptv.gordon.dpdns.org/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-5+,http://221.229.212.86:14925
 CCTV-5+,http://221.229.212.86:14981
 CCTV-5+,http://139.155.89.87:1000/641886773
@@ -140,18 +140,18 @@ CCTV-6,http://cziptv.gordon.dpdns.org/tsfile/live/1026_1.m3u8?key=txiptv&playliv
 CCTV-6,http://221.229.212.86:14995
 CCTV-6,http://139.155.89.87:1000/624878396
 CCTV-6,http://183.239.108.37:1698/hls/23/index.m3u8
-CCTV-7,http://cziptv.gordon.dpdns.org/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-7,http://221.229.212.86:14997
 CCTV-7,http://139.155.89.87:1000/673168121
 CCTV-7,http://183.239.108.37:1698/hls/24/index.m3u8
-CCTV-8,http://cziptv.gordon.dpdns.org/tsfile/live/1110_1.m3u8?key=txiptv&playlive=1&down=1
+CCTV-7,http://cziptv.gordon.dpdns.org/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-8,http://221.229.212.86:14996
 CCTV-8,http://139.155.89.87:1000/624878356
 CCTV-8,http://183.239.108.37:1698/hls/25/index.m3u8
+CCTV-8,http://cziptv.gordon.dpdns.org/tsfile/live/1110_1.m3u8?key=txiptv&playlive=1&down=1
+CCTV-9,http://cziptv.gordon.dpdns.org/tsfile/live/1124_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-9,http://221.229.212.86:14904
 CCTV-9,http://139.155.89.87:1000/673168140
 CCTV-9,http://183.239.108.37:1698/hls/26/index.m3u8
-CCTV-9,http://cziptv.gordon.dpdns.org/tsfile/live/1124_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-10,http://221.229.212.86:14998
 CCTV-10,http://139.155.89.87:1000/624878405
 CCTV-10,http://183.239.108.37:1698/hls/27/index.m3u8
@@ -168,22 +168,22 @@ CCTV-13,http://221.229.212.86:14979
 CCTV-13,http://139.155.89.87:1000/608807423
 CCTV-13,http://183.239.108.37:1698/hls/30/index.m3u8
 CCTV-13,http://cziptv.gordon.dpdns.org/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1
-CCTV-14,http://cziptv.gordon.dpdns.org/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-14,http://221.229.212.86:14989
 CCTV-14,http://139.155.89.87:1000/624878440
 CCTV-14,http://183.239.108.37:1698/hls/31/index.m3u8
-CCTV-15,http://cziptv.gordon.dpdns.org/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&down=1
+CCTV-14,http://cziptv.gordon.dpdns.org/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-15,http://221.229.212.86:14905
 CCTV-15,http://139.155.89.87:1000/673168223
 CCTV-15,http://183.239.108.37:1698/hls/32/index.m3u8
-CCTV-16,http://cziptv.gordon.dpdns.org/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&down=1
+CCTV-15,http://cziptv.gordon.dpdns.org/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-16,http://221.229.212.86:14926
 CCTV-16,http://221.229.212.86:14910
 CCTV-16,http://183.239.108.37:1698/hls/33/index.m3u8
+CCTV-16,http://cziptv.gordon.dpdns.org/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&down=1
+CCTV-17,http://cziptv.gordon.dpdns.org/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&down=1
 CCTV-17,http://221.229.212.86:14965
 CCTV-17,http://139.155.89.87:1000/673168256
 CCTV-17,http://183.239.108.37:1698/hls/34/index.m3u8
-CCTV-17,http://cziptv.gordon.dpdns.org/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&down=1
 CETV-1,http://139.155.89.87:1000/923287154
 CETV-1,http://183.239.108.37:1698/hls/59/index.m3u8
 CETV-2,http://139.155.89.87:1000/923287211
@@ -245,9 +245,9 @@ CHC家庭影院,http://139.155.89.87:1000/644368373
 CHC家庭影院,http://go.bkpcp.top/mg/jtyy
 CHC家庭影院,http://183.239.108.37:1698/hls/80/index.m3u8
 CHC家庭影院,http://211.97.63.3:3443:801/hls/523/index.m3u8
+CHC动作电影,http://183.239.108.37:1698/hls/99/index.m3u8
 CHC动作电影,http://139.155.89.87:1000/644368714
 CHC动作电影,http://go.bkpcp.top/mg/dzdy
-CHC动作电影,http://183.239.108.37:1698/hls/99/index.m3u8
 CHC动作电影,http://211.97.63.3:3443:801/hls/523/index.m3u8
 CHC影迷电影,http://139.155.89.87:1000/952383261
 CHC影迷电影,http://go.bkpcp.top/mg/ymdy
@@ -296,4 +296,4 @@ CHC影迷电影,http://go.bkpcp.top/mg/ymdy
 吴京,https://isus.cc/php/huya.php?id=11602041
 
 🕘️更新时间,#genre#
-2026-07-09 03:03:14,http://183.239.108.37:1698/hls/8/index.m3u8
+2026-07-20 14:47:32,http://183.239.108.37:1698/hls/8/index.m3u8
